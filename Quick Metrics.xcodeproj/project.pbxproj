@@ -53,10 +53,6 @@
 		6A70910F16C8F65800BE61FF /* README in Resources */ = {isa = PBXBuildFile; fileRef = 6A70910A16C8F65800BE61FF /* README */; };
 		6A70911016C8F65800BE61FF /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A70910C16C8F65800BE61FF /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6A70911116C8F65800BE61FF /* XMLReader.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6A70910D16C8F65800BE61FF /* XMLReader.podspec */; };
-		6A70911916C8F68500BE61FF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6A70911416C8F68500BE61FF /* LICENSE */; };
-		6A70911A16C8F68500BE61FF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6A70911516C8F68500BE61FF /* README.md */; };
-		6A70911B16C8F68500BE61FF /* RKXMLReaderSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A70911716C8F68500BE61FF /* RKXMLReaderSerialization.m */; };
-		6A70911C16C8F68500BE61FF /* RKXMLReaderSerialization.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6A70911816C8F68500BE61FF /* RKXMLReaderSerialization.podspec */; };
 		6A70911F16C9541B00BE61FF /* ApplicationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A70911E16C9541B00BE61FF /* ApplicationsViewController.m */; };
 		6A70930416CA446200BE61FF /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7092CC16CA446200BE61FF /* MagicalImportFunctions.m */; };
 		6A70930516CA446200BE61FF /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7092CE16CA446200BE61FF /* NSAttributeDescription+MagicalDataImport.m */; };
@@ -85,6 +81,10 @@
 		6A70931C16CA446200BE61FF /* MagicalRecord+ShorthandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7092FF16CA446200BE61FF /* MagicalRecord+ShorthandSupport.m */; };
 		6A70931D16CA446200BE61FF /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A70930116CA446200BE61FF /* MagicalRecord.m */; };
 		6A70932016CA4C4A00BE61FF /* MetricData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A70931F16CA4C4A00BE61FF /* MetricData.m */; };
+		6AC8E36E16D547CC0036FF80 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8E36916D547CC0036FF80 /* LICENSE */; };
+		6AC8E36F16D547CC0036FF80 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8E36A16D547CC0036FF80 /* README.md */; };
+		6AC8E37016D547CC0036FF80 /* RKXMLReaderSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC8E36C16D547CC0036FF80 /* RKXMLReaderSerialization.m */; };
+		6AC8E37116D547CC0036FF80 /* RKXMLReaderSerialization.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8E36D16D547CC0036FF80 /* RKXMLReaderSerialization.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,11 +185,6 @@
 		6A70910B16C8F65800BE61FF /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		6A70910C16C8F65800BE61FF /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		6A70910D16C8F65800BE61FF /* XMLReader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XMLReader.podspec; sourceTree = "<group>"; };
-		6A70911416C8F68500BE61FF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6A70911516C8F68500BE61FF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		6A70911616C8F68500BE61FF /* RKXMLReaderSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKXMLReaderSerialization.h; sourceTree = "<group>"; };
-		6A70911716C8F68500BE61FF /* RKXMLReaderSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKXMLReaderSerialization.m; sourceTree = "<group>"; };
-		6A70911816C8F68500BE61FF /* RKXMLReaderSerialization.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RKXMLReaderSerialization.podspec; sourceTree = "<group>"; };
 		6A70911D16C9541B00BE61FF /* ApplicationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationsViewController.h; sourceTree = "<group>"; };
 		6A70911E16C9541B00BE61FF /* ApplicationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationsViewController.m; sourceTree = "<group>"; };
 		6A7092CB16CA446200BE61FF /* MagicalImportFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalImportFunctions.h; sourceTree = "<group>"; };
@@ -248,6 +243,11 @@
 		6A70930316CA446200BE61FF /* CoreData+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+MagicalRecord.h"; sourceTree = "<group>"; };
 		6A70931E16CA4C4A00BE61FF /* MetricData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetricData.h; sourceTree = "<group>"; };
 		6A70931F16CA4C4A00BE61FF /* MetricData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetricData.m; sourceTree = "<group>"; };
+		6AC8E36916D547CC0036FF80 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6AC8E36A16D547CC0036FF80 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		6AC8E36B16D547CC0036FF80 /* RKXMLReaderSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKXMLReaderSerialization.h; sourceTree = "<group>"; };
+		6AC8E36C16D547CC0036FF80 /* RKXMLReaderSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKXMLReaderSerialization.m; sourceTree = "<group>"; };
+		6AC8E36D16D547CC0036FF80 /* RKXMLReaderSerialization.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RKXMLReaderSerialization.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,8 +405,8 @@
 		6A70910816C8F64C00BE61FF /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				6AC8E36816D547CC0036FF80 /* RKXMLReaderSerialization */,
 				6A7092C816CA446200BE61FF /* MagicalRecord */,
-				6A70911316C8F68500BE61FF /* RKXMLReaderSerialization */,
 				6A70911216C8F65C00BE61FF /* XMLReader */,
 			);
 			name = Vendor;
@@ -422,18 +422,6 @@
 				6A70910D16C8F65800BE61FF /* XMLReader.podspec */,
 			);
 			name = XMLReader;
-			sourceTree = "<group>";
-		};
-		6A70911316C8F68500BE61FF /* RKXMLReaderSerialization */ = {
-			isa = PBXGroup;
-			children = (
-				6A70911416C8F68500BE61FF /* LICENSE */,
-				6A70911516C8F68500BE61FF /* README.md */,
-				6A70911616C8F68500BE61FF /* RKXMLReaderSerialization.h */,
-				6A70911716C8F68500BE61FF /* RKXMLReaderSerialization.m */,
-				6A70911816C8F68500BE61FF /* RKXMLReaderSerialization.podspec */,
-			);
-			path = RKXMLReaderSerialization;
 			sourceTree = "<group>";
 		};
 		6A7092C816CA446200BE61FF /* MagicalRecord */ = {
@@ -536,6 +524,18 @@
 			);
 			path = Core;
 			sourceTree = "<group>";
+		};
+		6AC8E36816D547CC0036FF80 /* RKXMLReaderSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				6AC8E36916D547CC0036FF80 /* LICENSE */,
+				6AC8E36A16D547CC0036FF80 /* README.md */,
+				6AC8E36B16D547CC0036FF80 /* RKXMLReaderSerialization.h */,
+				6AC8E36C16D547CC0036FF80 /* RKXMLReaderSerialization.m */,
+				6AC8E36D16D547CC0036FF80 /* RKXMLReaderSerialization.podspec */,
+			);
+			path = RKXMLReaderSerialization;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -647,14 +647,14 @@
 				6A70910E16C8F65800BE61FF /* LICENCE in Resources */,
 				6A70910F16C8F65800BE61FF /* README in Resources */,
 				6A70911116C8F65800BE61FF /* XMLReader.podspec in Resources */,
-				6A70911916C8F68500BE61FF /* LICENSE in Resources */,
-				6A70911A16C8F68500BE61FF /* README.md in Resources */,
-				6A70911C16C8F68500BE61FF /* RKXMLReaderSerialization.podspec in Resources */,
 				6A66FD9216D1013D00010275 /* app_icon.png in Resources */,
 				6A66FD9416D1014000010275 /* app_icon@2x.png in Resources */,
 				6A66FD9616D1866E00010275 /* Default@2x.png in Resources */,
 				6A66FD9816D1867000010275 /* Default.png in Resources */,
 				6A66FD9A16D1867A00010275 /* Default-568h@2x.png in Resources */,
+				6AC8E36E16D547CC0036FF80 /* LICENSE in Resources */,
+				6AC8E36F16D547CC0036FF80 /* README.md in Resources */,
+				6AC8E37116D547CC0036FF80 /* RKXMLReaderSerialization.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,7 +677,6 @@
 				6A08982316C7FE49003F5971 /* SettingsViewController.m in Sources */,
 				6A66594F16C8441600640EE2 /* User.m in Sources */,
 				6A70911016C8F65800BE61FF /* XMLReader.m in Sources */,
-				6A70911B16C8F68500BE61FF /* RKXMLReaderSerialization.m in Sources */,
 				6A70911F16C9541B00BE61FF /* ApplicationsViewController.m in Sources */,
 				6A70930416CA446200BE61FF /* MagicalImportFunctions.m in Sources */,
 				6A70930516CA446200BE61FF /* NSAttributeDescription+MagicalDataImport.m in Sources */,
@@ -706,6 +705,7 @@
 				6A70931C16CA446200BE61FF /* MagicalRecord+ShorthandSupport.m in Sources */,
 				6A70931D16CA446200BE61FF /* MagicalRecord.m in Sources */,
 				6A70932016CA4C4A00BE61FF /* MetricData.m in Sources */,
+				6AC8E37016D547CC0036FF80 /* RKXMLReaderSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
