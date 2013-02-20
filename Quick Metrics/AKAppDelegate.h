@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RestKit/RestKit.h>
+#import "RKXMLReaderSerialization.h"
+#import "User.h"
+#import "MetricData.h"
 
 @interface AKAppDelegate : UIResponder <UIApplicationDelegate>
 

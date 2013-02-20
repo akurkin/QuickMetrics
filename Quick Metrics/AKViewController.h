@@ -7,7 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <RestKit/RestKit.h>
 
-@interface AKViewController : UIViewController
+#import "SettingsViewController.h"
+
+#import "AppView.h"
+#import "User.h"
+#import "MetricData.h"
+
+#import "AppViewLayout.h"
+#import "AppViewMetricCell.h"
+#import "AppViewHeaderView.h"
+
+#define MR_SHORTHAND
+#import "CoreData+MagicalRecord.h"
+
+@interface AKViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, AppViewHeaderDelegate>
+
+@property (nonatomic, strong) AppView *appView;
+
+- (void) loadPerformanceData;
 
 @end

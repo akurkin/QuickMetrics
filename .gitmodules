@@ -1,0 +1,12 @@
+[submodule "RestKit"]
+	path = RestKit
+	url = git://github.com/RestKit/RestKit.git
+[submodule "XML-to-NSDictionary"]
+	path = XML-to-NSDictionary
+	url = https://github.com/RestKit/XML-to-NSDictionary
+[submodule "RKXMLReaderSerialization"]
+	path = RKXMLReaderSerialization
+	url = git://github.com/RestKit/RKXMLReaderSerialization.git
+[submodule "MagicalRecord"]
+	path = MagicalRecord
+	url = git://github.com/magicalpanda/MagicalRecord.git
